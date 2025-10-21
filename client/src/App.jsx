@@ -1,41 +1,44 @@
-import React from 'react'
-import { useRoutes } from 'react-router-dom'
-import Navigation from './components/Navigation'
-import ViewCars from './pages/ViewCars'
-import EditCar from './pages/EditCar'
-import CreateCar from './pages/CreateCar'
-import CarDetails from './pages/CarDetails'
-import './App.css'
+import React from "react";
+import { useRoutes } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import ViewSneakers from "./pages/ViewSneakers";
+import EditSneaker from "./pages/EditSneaker";
+import CreateSneaker from "./pages/CreateSneaker";
+import SneakerDetails from "./pages/SneakerDetails";
+import "./App.css";
 
 const App = () => {
   let element = useRoutes([
     {
-      path: '/',
-      element: <CreateCar title='BOLT BUCKET | Customize' />
+      path: "/",
+      element: <CreateSneaker title="SoleMate | Customize" />,
     },
     {
-      path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      path: "/customsneakers",
+      element: <ViewSneakers title="SoleMate | Custom Sneakers" />,
     },
     {
-      path: '/customcars/:id',
-      element: <CarDetails title='BOLT BUCKET | View' />
+      path: "/customsneakers/:id",
+      element: <SneakerDetails title="SoleMate | View" />,
     },
     {
-      path: '/edit/:id',
-      element: <EditCar title='BOLT BUCKET | Edit' />
-    }
-  ])
+      path: "/edit/:id",
+      element: <EditSneaker title="SoleMate | Edit" />,
+    },
+  ]);
 
   return (
-    <div className='app'>
+    <div className="app">
+      {/* Floating sneaker background elements */}
+      <div className="floating-sneaker">👟</div>
+      <div className="floating-sneaker">👟</div>
+      <div className="floating-sneaker">👟</div>
 
       <Navigation />
 
-      { element }
-
+      {element}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

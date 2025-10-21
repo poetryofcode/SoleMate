@@ -1,21 +1,17 @@
 # WEB103 Project 4 - SoleMate
 
-Submitted by: **Your name here**
+Submitted by: Vitaliy Prymak
 
 About this web app: **SoleMate is a custom sneaker personalization web application that allows users to design their own sneakers by selecting different colors for the sole, upper, laces, and logo. Users can create, view, edit, and delete their custom sneaker designs with real-time price updates and visual feedback.**
 
-Time spent: **8** hours
+Time spent: **2** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
-
 - [x] **The web app uses React to display data from the API.**
-- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
-  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [x] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.
 - [x] **Users can view **multiple** features of the `CustomItem` (sneaker) they can customize, (sole color, upper color, laces color, logo color)**
 - [x] **Each customizable feature has multiple options to choose from (e.g. sole color could be white, black, red, blue, green, yellow)**
 - [x] **On selecting each option, the displayed visual icon for the `CustomItem` updates to match the option the user chose.**
@@ -46,22 +42,30 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+    
+Loom Message - 21 October 2025 - Watch Video
+
+<div>
+    <a href="https://www.loom.com/share/e32f53e4d22a49a6b581ca58f45549be">
+      <p>Loom Message - 21 October 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/e32f53e4d22a49a6b581ca58f45549be">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e32f53e4d22a49a6b581ca58f45549be-e73d8e733336e4ed-full-play.gif">
+    </a>
+  </div>
+ 
+
+
 
 GIF created with ... GIF tool here
 
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Database Screenshots
 
 ### Render Dashboard
 
-![Render Dashboard](https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Render+Database+Dashboard)
+
 
 ### Database Tables
 
@@ -134,8 +138,6 @@ SELECT * FROM sneaker_options;
 - Add social sharing features
 
 ## License
-
-Copyright [2024] [SoleMate Project]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
